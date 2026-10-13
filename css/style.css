@@ -1,0 +1,36 @@
+.navMenuu{
+    background: navy;
+    width: 100%;
+    position: sticky;
+    height: 50px;
+    top: 0;
+}
+.navMenuu ul li {
+  outline: none;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.wa{
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    background: green;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+.wa a{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    top: 30px;
+    left: 25px;
+    font-size: 25px;
+}
+

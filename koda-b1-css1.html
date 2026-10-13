@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS1</title>
+
+    <style>
+      .box {
+        position: relative;
+        width: 320px;
+        height: 350px;
+        border: 1px solid black;
+      }
+      .box > .row {
+        position: absolute;
+        background: yellowgreen;
+        width: 300px;
+        height: 320px;
+        top: 0px;
+        left: 10px;
+      }
+      .box > .row > p {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+      }
+      .row1 > div {
+        display: inline-block;
+      }
+
+      .row1 > div:nth-child(odd) {
+        background: black;
+        border: 1px solid black;
+        width: 2rem;
+        height: 30px;
+      }
+      .row1 > div:nth-child(even) {
+        background: white;
+        width: 2rem;
+        height: 30px;
+        border: 1px solid gray;
+      }
+      .row2 > div {
+        display: inline-block;
+      }
+
+      .row2 > div:nth-child(odd) {
+        background: white;
+        border: 1px solid black;
+        width: 2rem;
+        height: 30px;
+      }
+
+      .row2 > div:nth-child(even) {
+        background: black;
+        width: 2rem;
+        height: 30px;
+        border: 1px solid gray;
+      }
+
+      .row3 > div {
+        display: inline-block;
+      }
+
+      .row3 > div:nth-child(odd) {
+        background: black;
+        border: 1px solid black;
+        width: 2rem;
+        height: 30px;
+      }
+
+      .row3 > div:nth-child(even) {
+        background: white;
+        width: 2rem;
+        height: 30px;
+        border: 1px solid gray;
+      }
+      .row4 > div {
+        display: inline-block;
+      }
+
+      .row4 > div:nth-child(odd) {
+        background: white;
+        border: 1px solid black;
+        width: 2rem;
+        height: 30px;
+      }
+
+      .row4 > div:nth-child(even) {
+        background: black;
+        width: 2rem;
+        height: 30px;
+        border: 1px solid gray;
+      }
+
+      .row5 > div {
+        display: inline-block;
+      }
+
+      .row5 > div:nth-child(odd) {
+        background: black;
+        border: 1px solid black;
+        width: 2rem;
+        height: 30px;
+      }
+
+      .row5 > div:nth-child(even) {
+        background: white;
+        width: 2rem;
+        height: 30px;
+        border: 1px solid gray;
+      }
+      .row6 > div {
+        display: inline-block;
+      }
+
+      .row6 > div:nth-child(odd) {
+        background: white;
+        border: 1px solid black;
+        width: 2rem;
+        height: 30px;
+      }
+
+      .row6 > div:nth-child(even) {
+        background: black;
+        width: 2rem;
+        height: 30px;
+        border: 1px solid gray;
+      }
+      .row7 > div {
+        display: inline-block;
+      }
+
+      .row7 > div:nth-child(odd) {
+        background: black;
+        border: 1px solid black;
+        width: 2rem;
+        height: 30px;
+      }
+
+      .row7 > div:nth-child(even) {
+        background: white;
+        width: 2rem;
+        height: 30px;
+        border: 1px solid gray;
+      }
+      .row8 > div {
+        display: inline-block;
+      }
+
+      .row8 > div:nth-child(odd) {
+        background: white;
+        border: 1px solid black;
+        width: 2rem;
+        height: 30px;
+      }
+
+      .row8 > div:nth-child(even) {
+        background: black;
+        width: 2rem;
+        height: 30px;
+        border: 1px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="row">
+        <p>Papan Catur</p>
+        <div class="row1">
+          <div class="kolom1"></div>
+          <div class="kolom2"></div>
+          <div class="kolom3"></div>
+          <div class="kolom4"></div>
+          <div class="kolom5"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+        </div>
+        <div class="row2">
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+        </div>
+        <div class="row3">
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+        </div>
+        <div class="row4">
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+        </div>
+        <div class="row5">
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+        </div>
+        <div class="row6">
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+        </div>
+        <div class="row7">
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+        </div>
+        <div class="row8">
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+          <div class="kolom"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
