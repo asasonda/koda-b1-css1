@@ -17,7 +17,7 @@
 .wa{
     position: fixed;
     bottom: 30px;
-    left: 10px;
+    right: 10px;
     background: green;
     width: 90px;
     height: 90px;
